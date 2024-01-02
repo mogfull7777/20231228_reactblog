@@ -1,0 +1,36 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.btnBox {
+  width: 25%;
+}
+
+.btnBox button {
+  width: calc(50% - 0.25rem);
+  height: 1.3rem;
+  padding: 0;
+  text-align: center;
+  border: 1px solid #666;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: "Hahmlet-Regular";
+}
+
+.btnBox button:hover {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #000;
+}
+
+.writeBtn {
+  margin-right: 0.5rem;
+}

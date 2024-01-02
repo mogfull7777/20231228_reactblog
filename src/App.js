@@ -5,11 +5,12 @@ import Write from "./pages/Write";
 import Board from "./pages/Board";
 import Review from "./pages/Review";
 import ReviewList from "./pages/ReviewList";
+import Nav from "./pages/Nav";
 
 const Layout = () => {
   return (
     <div>
-      <h1>블로그 만들어 보기.</h1>
+      <Nav />
 
       <Outlet />
     </div>
@@ -23,7 +24,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Main />}></Route>
           <Route path="/write" element={<Write />}></Route>
-          <Route path="/board" element={<Board />}></Route>
+          <Route path="/board/:board" element={<Board />}></Route>
         </Route>
       </Routes>
     </div>
