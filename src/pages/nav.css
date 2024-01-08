@@ -9,12 +9,12 @@
   font-weight: bolder;
 }
 
-.btnBox {
+/* .btnBox {
   width: 25%;
-}
+} */
 
 .btnBox button {
-  width: calc(50% - 0.25rem);
+  width: 6.25rem;
   height: 1.3rem;
   padding: 0;
   text-align: center;
